@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/estilos/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/estilos/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-nav">
+            <img class="logo" src="./assets/img-guitarras/logo-guitarra.png" alt="logo-jackson">
+            <nav class="navbar">
+                <div id="toggle-menu" class="toggle-menu menu-nav">
+                    <i class="bi bi-menu-up"></i>
+                </div>
+                <ul class="list-nav">
+                    <li>
+                        <a href="#">historia 📚</a>
+                    </li>
+                    <li>
+                        <a href="#producs">productos 🎸</a>
+                    </li>
+                    <li>
+                        <a href="">contactos 📞</a>
+                    </li>
+                    <li>
+                        <a href="suscribirse.html">suscribirse 🔔</a>
+                    </li>
+                </ul>
+
+                <!--   <img class="imagen-producto" src="${producto.img}" alt="guitarra">
+                    <p>serial:${producto.id}</p>
+                    <h1>${producto.nombre}</h1>
+                    <p>${producto.precio}$</p>
+                    <button>comprar</button> -->
+            </nav>
+            <i id="car" class="bi bi-cart4 carritos"><span class="numero-compras numero-car"></span></i>
+
+        </div>
+    </header>
+    <main>
+        <!-- carrito -->
+        <section class="carrito">
+
+            <div class="Contenedor-carrito ">
+                <div class="header">
+                    <h1>sus compras</h1>
+                </div>
+                <div id="container-compras">
+                </div>
+
+
+
+                <div class="carrito-acciones">
+                    <div class="total">
+                        <div>
+                             <small>total</small>
+                            <p class="total-precio">a</p>
+                        </div>
+                    </div>
+                    <button class="bcomprar">comprar</button>
+                    <button class="eliminar"><i class="bi bi-trash-fill"></i></button>
+
+                </div>
+                <!-- <div class="compras">
+                    <img class="imagen-compra" src="./assets/img-guitarras/4.webp" alt="imagen compra">
+                    <div class="carrito-producto-nombre">
+                        <small>PRODUCTO</small>
+                        <h3></h3>guitarra11111
+                    </div>
+                    <div class="carrito-cantidad">
+                        <small>CANTIDAD</small>
+                        <div class="contador-cantidad">
+                        <button>+</button>
+                        <p>111111</p>
+                        <button>-</button>
+                        </div>
+                    </div>
+                    <div class="precio-producto">
+                        <small>PRECIO</small>
+                        <h3>10001111111</h3>
+                    </div>
+                    <div>
+                        <button class="eliminar"><i class="bi bi-trash-fill"></i></button>
+                    </div> 
+
+                </div>
+       -->
+            </div>
+        </section>
+
+
+        <!-- carrucel -->
+        <section class="hero">
+            <img class="nombre-logo" src="./assets/img-guitarras/nombre.webp" alt="">
+            <div id="slideshow">
+                <div id="slideshow-progress">
+                    <div id="progress-bar"></div>
+                </div>
+                <div id="slideshow-img">
+                    <img src="" class="img1" alt="">
+                    <img src="" class="img2" alt="">
+                </div>
+                <div id="indicadores">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- productos -->
+        <section class="productos-container">
+            <h1 class="titulo-productos"> Nuestros productos</h1>
+            <div>
+                <ul class="opciones-menu">
+                    <li><button id="todos" class="bcomprar button-menu active">todos los productos</button></li>
+                    <li><button id="guitarras" class="bcomprar button-menu">guitarras</button></li>
+                    <li><button id="bajos" class="bcomprar button-menu">bajos</button></li>
+                    <li><button id="combos" class="bcomprar button-menu">combos</button></li>
+                </ul>
+            </div>
+            <div id="producs" class="productos">
+                <div class="productos-Container">
+                    <!-- render productos -->
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- productos -->
+        <section>
+
+            <!--             
+             <div class="caracteristicas-producto">
+                <img class="imagen-producto" src="./assets/img-guitarras/6-01.webp" alt="guitarra">
+                <div class="datos">
+                    <p>serial:</p>
+                    <h1>nombre</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe vel aut ipsum voluptatum tenetur
+                        cupiditate, officia nulla hic provident facilis asperiores, dolore officiis eius cumque dolorum
+                        amet aperiam ad fuga?</p>
+                    <div class="comprar">
+                        <p>precio</p>
+                        <button id="comprar"
+                        >COMPRAR</button>
+                    </div>
+                </div>
+            </div>  -->
+
+        </section>
+        <!-- contactos -->
+        <section class="contactos seccion-oscura">
+           
+              <!-- redes sociales -->
+              
+              <div class="columna">
+                <div>
+                  <h2 class="titulo-contactos">Nos encontramos ubibados en: <br> Doblas 236,Caballito, CABA 📍
+        
+                </div>
+                <div class="iconos-redes-sociales ">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </a>
+        
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+        
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+        
+                </div>
+                <div>
+                  <p>"Nuestras redes sociales"</p>
+                </div>
+              </div>
+              
+        
+              <!-- maps -->
+              <div class="columna ">
+                <iframe class="mapa"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4060548778784!2d-58.4334483851124!3d-34.61917766582261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4501d508cf%3A0xa2cb0b6388341f45!2sDoblas%20236%2C%20C1424BLF%20CABA!5e0!3m2!1ses!2sar!4v1674657314903!5m2!1ses!2sar"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            
+          </section>
+          <!-- footer -->
+          <footer class="seccion-oscura ">
+            <img class="footer-logo" src="./assets/img-guitarras/logo-guitarra.png" alt="logo portafolio">
+            <pc class="footer-text text-center">“Si hay música en tu alma, se escuchará en todo el Universo”, Lao Tse.</p>
+              <p class="derechos-de-autor">Creado por Emiliano Zapata (2023) &#169;</p>
+          </footer>
+    <script src="/assets/js/productos.js"></script>
+  
+    <script src="assets/js/index.js"></script>
+</body>
+
+
+</html>
