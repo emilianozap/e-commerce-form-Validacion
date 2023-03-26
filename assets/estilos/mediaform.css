@@ -1,0 +1,8 @@
+@media (max-width: 619px){
+    .input-box{
+        width: 250px;
+        display: flex;
+        align-items: ;
+        justify-content: center;
+    }
+}

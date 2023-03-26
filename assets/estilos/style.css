@@ -71,6 +71,9 @@
 .menu-nav{
     font-size: 60px;
 }
+.iniciar{
+    font-size: 20px;
+}
 
 /* carrito */
 .carritos{
@@ -461,3 +464,171 @@ footer{
 }
 
 
+/* html suscribrse */
+.hero-suscribirse{
+   background-color: black;
+   
+   
+}
+
+
+
+.main-suscribirse{
+    
+  color: #f0fbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+
+
+}
+.texto-login{
+    color: #f0fbff;
+    text-align: center;
+}
+.contenedor-login{
+position: relative;
+width: 440px;
+height: 540px;
+background-color: transparent;
+border: 2px solid rgba(255, 255, 255, .5);
+border-radius: 20px;
+box-shadow: 0 0 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.contenedor-datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+.input-box{
+ position: relative;
+ width: 100%;
+ height: 50px;
+ border-bottom: 2px solid white;
+ margin: 30px 0;
+ color: white;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 3s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -15px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    line-height: 50px;
+}
+.guardar-contraseña{
+    font-size: .9em;
+    font-weight: 500;
+    color: #f0fbff;
+    margin: -15px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.guardar-contraseña label input{
+    accent-color: var(--bg-black) ;
+    margin-right: 15px;
+}
+.guardar-contraseña a{
+    color: #f0fbff;
+}
+.guardar-contraseña a:hover{
+    text-decoration: underline;
+}
+.btn-ingresar{
+    margin-bottom: 10px;
+    background-color: black;
+    color: #f0fbff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #f0fbff;
+    font-weight: bolder;
+}
+.btn-ingresar:hover{
+    background-color: #f0fbff;
+    border: 2px solid var(--bg-black);
+    color: black;
+    
+    
+}
+.registrarse{
+    color: #f0fbff;
+    text-align: center;
+    font-size: .9em;
+    margin-top: 20px;
+}
+.registrarse:hover{
+    text-decoration: underline;
+}
+
+/* contenedor registrarse */
+.contenedor-registrarse{
+    position: relative;
+    width: 440px;
+    height: 640px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+    
+}
+.open-container{
+    display: flex;
+   
+}
+.close-container{
+    display: none;
+  
+}
+.parrafo{
+    color: #f0fbff;
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
